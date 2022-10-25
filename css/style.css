@@ -1,0 +1,106 @@
+
+body{
+    background-color: #dceb5b;
+}
+h2{
+    color: #3b331f;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h3{
+    color:#ed6362;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+    
+
+}
+
+@keyframes text {
+    0% {
+        filter: hue-rotate(0deg);
+
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+    
+}
+
+
+
+.bg-light{
+    background-color: rgb(0, 255, 221);
+}
+.bg-violet{
+background-color: rgba(200,50, 68, 0.75);
+}
+
+p{
+    font-size: larger;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+
+.alinear_flex{
+
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+footer{
+
+    color: deeppink;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex-container{
+    border: 1px solid black;
+    background: #ed6362;
+    padding: 20px ;
+    display: flex;
+    flex-direction: row;
+    margin: 0% auto;
+    justify-content: center;
+}
+
+.caja {
+
+    border: 1px solid red;
+    background-color: cornflowerblue;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    width: 400px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.tr{
+
+    justify-content: center;
+}
+    
+
+
+
+
+    
+
+
+
+
